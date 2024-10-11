@@ -1,0 +1,7 @@
+Iterate over the array starting from the second element (index 1), because a single element is trivially "sorted."
+
+For each element arr[i], insert it into the sorted portion of the array (i.e., the portion from arr[0] to arr[i-1]).
+
+To do this, compare arr[i] to the elements in the sorted portion and shift them one position to the right until you find the correct position for arr[i].
+
+Once the correct position is found, place arr[i] there.
